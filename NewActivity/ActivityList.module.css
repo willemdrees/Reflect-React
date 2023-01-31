@@ -1,0 +1,10 @@
+.activities {
+  display: flex;
+  align-items: top;
+  margin: 7px;
+  border-radius: 0.3rem;
+  border: 3px solid #444449;
+  background-color: #1C1C1E;
+  height: 100%;
+  
+}

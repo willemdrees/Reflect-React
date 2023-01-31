@@ -1,0 +1,141 @@
+.topbar {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 70px;
+  width: calc(100% - 70px);
+  height: 80px;
+  box-sizing: border-box;
+  background-color: #1C1C1E;
+}
+
+.today {
+  margin-left: 1rem;
+  background-color: transparent;
+  width: 5rem;
+  height: 2.5rem;
+  border-radius: 0.3rem;
+  border: 2px solid #444449;
+  background-color: #1C1C1E;
+  color: white;
+  font-size: 1rem;
+  font-weight: 550;
+}
+
+.today:hover {
+  border-radius: 0.5rem;
+  background-color: #000000;
+  cursor: pointer;
+}
+
+.toggleleft {
+  margin-left: 1rem;
+  background: transparent;
+  color: white;
+  width: 3rem;
+  height: 3rem;
+  border: none;
+}
+
+.toggleright {
+  margin-left: 0.1rem;
+  background: transparent;
+  color: white;
+  width: 3rem;
+  height: 3rem;
+  border: none;
+}
+
+.toggleleft:hover {
+  background: rgb(255, 255, 255, .05);
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.toggleright:hover {
+  background: rgb(255, 255, 255, .05);
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.date {
+font-size: 1.45rem;
+color: white;
+font-weight: 400; 
+}
+
+.week {
+  margin-left: 0.5rem;
+  background-color: transparent;
+  width: 3.3rem;
+  height: 1.40rem;
+  border-radius: 0.3rem;
+  background-color: #6d6d6f;
+  color: white;
+  font-size: 0.75rem;
+  border: none;
+}
+
+.rightside {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.settings {
+  margin-top: 2px;
+  background: none;
+  border: none;
+  transform: scale(1.2);
+}
+
+.settings:hover {
+  transform: scale()1.2;
+  cursor: pointer;
+}
+
+.menuwrapper {
+  display: flex;
+  margin-left: 1rem;
+  background-color: transparent;
+  width: 5rem;
+  height: 2.5rem;
+  border-radius: 0.3rem;
+  border: 2px solid #444449;
+  background-color: #1C1C1E;
+  color: white;
+  font-size: 1rem;
+  font-weight: 550;
+}
+
+.menuwrapper:hover {
+  border-radius: 0.5rem;
+  background-color: #000000;
+  cursor: pointer;
+}
+
+.menu {
+  background: transparent;
+  border: none;
+  color: white;
+  font-weight: 550;
+  margin-left: 3px;
+  margin-right: -10px;
+  cursor: pointer;  
+}
+
+.toggledown {
+  transform: scale(0.4);
+  margin: 0;
+}
+
+.avatar {
+  background: transparent;
+  border: none;
+  transform: scale(0.62);
+}
+
+.avatar:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  margin: 0;
+  width: auto;
+  height: auto;
+  max-width: 41rem;
+  max-height: 41rem;
+  background-color: black;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 2.3rem); 
+  grid-template-rows: repeat(12, 2.3rem); 
+  grid-gap: 0.6rem; 
+  width: calc(12 * 2.3rem + 11 * 0.6rem + 0.3rem);
+  height: calc(12 * 2.3rem + 11 * 0.6rem + 0.3rem);
+  padding: 10px;
+  margin: 7px;
+  border-radius: 0.2rem;
+  background-color: #1C1C1E;
+}
+
+.grid > div {
+  width: 2.3rem;
+  height: 2.3rem;
+  border-radius: 0.2rem;
+  border: 0.17rem solid #444449;
+  background-color: #1C1C1E;
+}
+
+.grid > div:hover {
+  width: 2.3rem;
+  height: 2.3rem;
+  border-radius: 0.2rem;
+  border-color: #5298f4;
+}
+
+/* Still need to figure out how to apply the time ID's to the grid here */
+.grid > div:before {
+  content: attr(id);
+  display: none;
+  position: absolute;
+  padding: 5px;
+  color: white;
+  border: none;
+  background-color: transparent;
+  z-index: 1;
+}

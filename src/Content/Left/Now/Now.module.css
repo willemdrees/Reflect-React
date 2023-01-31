@@ -1,0 +1,9 @@
+.nowWindow {
+  flex-grow: 1;
+  min-width: 500px;
+  height: auto;
+  margin: 7px;
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+  background-color: #de1b39;
+}

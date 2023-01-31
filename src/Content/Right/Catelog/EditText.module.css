@@ -1,0 +1,33 @@
+.header {
+  margin-top: 0px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.inputWindow {
+  background: transparent;
+  border: none;
+  color: white;
+  width: 10rem;
+  font-weight: bold;
+  padding: 0;
+}
+
+.inputWindow:focus {
+  outline: none;
+}
+
+.button {
+  background: grey;
+  border-radius: 0.3rem;
+  border: none;
+  color: white;
+  margin-top: -3px;
+  font-size: 0.5rem;
+  font-weight: bold;
+  height: 1rem;
+}

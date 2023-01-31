@@ -1,0 +1,10 @@
+.content {
+  display: flex;
+  flex-wrap: nowrap;
+  min-width: 50%;
+  position: relative;
+  top: 80px;
+  left: 70px;
+  width: calc(100% - 70px);
+  height: calc(100% - 80px);
+}

@@ -1,0 +1,50 @@
+https://firebase.google.com/docs/firestore/manage-data/structure-data
+
+Date & Time is structured according to ISO8601
+--> YYYY-MM-DDTHH:mm:ss(.ssZ)
+
+Data structure of a specific cell
+{
+  "UUID": "a68df4a68df4asdf8",
+    "date": "YYYY-MM-DDTHH:mm",
+    "category": "exercise",
+    "activity": "running",
+    "tag": "marathon training",
+}
+
+Data structure of a specific activity
+{
+  "UUID": "f8fse68asdf6asdfa6",
+  "category": "Exercise",
+  "activity": "Running",
+  "tag": "marathon training"
+}
+
+Data structure of a specific day
+{
+  "UUID": "8ewfa6d24fea9e84f",
+  "date": "YYYY-MM-DD",
+  "cells": {
+    "00:10": {
+      "UUID": "a68df4a68df4asdf8",
+      "date": "YYYY-MM-DDTHH:mm",
+      "category": "exercise",
+      "activity": "running",
+      "tag": "marathon training",
+    }
+    "00:20": {
+      "UUID": "a68df4a68df4asdf8",
+      "date": "YYYY-MM-DDTHH:mm",
+      "category": "exercise",
+      "activity": "running",
+      "tag": "marathon training",
+    }
+    "00:30": {
+      "UUID": "a68df4a68df4asdf8",
+      "date": "YYYY-MM-DDTHH:mm",
+      "category": "exercise",
+      "activity": "running",
+      "tag": "marathon training",
+    }
+  }
+}
